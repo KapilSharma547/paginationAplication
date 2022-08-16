@@ -1,0 +1,77 @@
+body {
+    background-color: #ffff;
+}
+
+div {
+    background-color: rgb(167, 167, 236);
+    width: 95%;
+    height: 90vh;
+    margin: auto;
+    border-radius: 6px;
+    color: aliceblue;
+}
+
+div>h1 {
+    margin: 20px 15px;
+    padding: 10px;
+}
+
+input {
+    width: 350px;
+    height: 25px;
+    border-radius: 4px;
+    border: 0px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#add {
+    height: 25px;
+    width: 25px;
+    border-radius: 30%;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 0 15px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+li {
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+
+}
+
+#delet {
+    height: 20px;
+    width: 10px;
+    margin-left: 10px;
+    border-radius: 30%;
+    border: 0px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: red;
+}
+
+@media screen and (max-width: 780px) {
+    body {
+        background-color: #ffff;
+    }
+    div{
+        width: 93%;
+        background-color: aliceblue;
+        color: black;
+    }
+    #add{
+        color: rgb(0, 10, 0);
+    }
+}

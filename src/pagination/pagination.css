@@ -1,0 +1,74 @@
+input {
+    margin: 20px;
+    width: 400px;
+    background-color: aliceblue;
+    font-size: 15px;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
+#apply {
+    display: flex;
+    list-style: none;
+    border: 1px solid blanchedalmond;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    /* justify-content:flex-end; */
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+
+}
+
+li:hover {
+    color: red;
+    font-size: 20px;
+}
+
+#apply>button {
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+table,
+tbody,
+thead,
+th,
+td,
+tr {
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: auto;
+    margin: 20px;
+    padding: 10px;
+    background-color: rgb(246, 243, 240);
+}
+
+#loder {
+    margin: 40px 680px;
+}
+
+@media screen and (width < 980px) {
+    body {
+        background-color: rgb(234, 184, 184);
+    }
+
+    input{
+        background-color: black;
+        color: white;
+        font-weight: bold;
+        height: 45px;
+        font-size: 35px;
+    }
+    table,thead,tbody,th,tr,td,ul,li {
+        background-color: black;
+        color: white;
+        /* font-weight: bolder; */
+        width: auto;
+    }
+}
